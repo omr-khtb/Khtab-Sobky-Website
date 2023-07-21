@@ -1,0 +1,206 @@
+
+body{
+
+    background-color: #173a5e;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+/*   #0F2027 , #203A43, #2C5364 */
+
+
+.projects{
+  
+    font-family: $fonts;
+    @include phone600{
+        background-attachment: scroll;
+    }
+}
+
+.all{
+    font-family: $fonts;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 960px !important;
+    font-size: 22px;
+    @include phone600{
+        padding:25px;
+        font-size: 15px;
+        h1{
+            font-size: 34px;
+        }
+    }
+
+}
+
+
+.h11{
+    font-size:22px;
+    font-family: $fonts;
+    font-weight: bold;
+    display: block;
+    
+}
+
+.p1{
+  font-size:24px;
+  text-align: center;
+  @include phone600{
+    font-size:16px;
+  }
+}
+.divs{
+    display: flex;
+    align-items: center;
+    
+    .left{
+        float:left;
+        padding-left:100px;
+        @include phone600{
+            padding-left:0px;
+            img{
+               padding-left:6px;
+                width:121px;
+                }
+
+        }
+
+        }
+    .right{
+     float:right;
+     padding-left:350px;
+     @include phone600{
+        padding-left:30px;
+        img{
+            padding-left:7px;
+        width:130px;
+        }
+    }
+ }
+ .left3{
+    float:left;
+    padding-left:100px;
+    @include phone600{
+        padding-left:20px;
+        img{
+
+            width:111px;
+            }
+
+    }
+}    
+.right3{
+    float:left;
+    padding-left:350px;
+    @include phone600{
+        padding-left:30px;
+        img{
+
+            width:111px;
+            }
+
+    }
+}    
+.right4{
+    float:right;
+    padding-left:330px;
+    padding-top: 15px;
+    @include phone600{
+       padding-left:30px;
+       img{
+padding-top: 0;
+       width:114px;
+       height: 220px;
+       }
+   }
+}
+
+.left4{
+    float:right;
+    padding-left:100px;
+    @include phone600{
+       padding-left:10px;padding-bottom: 24px;
+       img{
+
+       width:114px;
+       }
+   }
+}
+
+
+
+}
+.divs2{
+    display: flex;
+    align-items: center;
+    @include phone600{
+        display: block;
+    }
+    .left2{
+        float:left;
+        padding-left:30px;
+        @include phone600{
+            display: block;
+           padding-left:0px;
+           width: 100%;
+           img{
+
+            width:300px;
+            padding:20px;
+           }
+           padding-bottom: 20px;
+        }
+    }
+    .right2{
+     float:right;
+     padding-left:130px;
+     @include phone600{
+         display: flexbox;
+        padding-left:0px;
+        width: 100%;
+       
+
+            img{
+
+                width:300px;
+                padding:20px;
+        }
+        padding-bottom: 20px;
+
+     }
+   }
+}
+
+
+section{
+    background: url(../image/back.jpg) no-repeat;
+    background-size:cover;
+    height: calc(100vh-90px);
+    
+}	
+
+.img{
+    @include phone600{
+    width: 120px;
+    }
+}
+
+.vid{
+    @include phone600{
+    width: 100%;
+    }
+}
+
+.label{
+    @include phone600{
+        display: flex;
+    }
+}
+

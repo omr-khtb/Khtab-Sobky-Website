@@ -1,0 +1,57 @@
+
+/*3AMEL EL CSS HENA 34AN MNTR4 N3MEL UPLOAD KOL MARA YA 3AAAM*/
+
+body { 
+    margin: 0;
+    font-family: "UniversLTPro-Ex";
+    font-size: 30px;
+  }
+  
+  a {
+      text-decoration: none;
+      color: white;
+  }
+  
+  .marquee {
+    height: 50px;
+    width: 100%;
+  
+    overflow: hidden;
+    position: relative;
+    background-color: transparent;  
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 8px 0 4px 0;
+  }
+  
+  .marquee div {
+    display: inline-block;
+    width: 300%;
+    height: 40px;
+  
+    position: absolute;
+    overflow: hidden;
+  
+    animation: marquee 10s linear infinite;
+  }
+  
+  .marquee span {
+    float: left;
+    width: 1100px;
+  }
+  
+  .marquee:hover div {
+    animation-play-state: paused;
+  }
+  
+  @keyframes marquee {
+    0% { left: 0%; }
+    100% { left: -1100px; }
+  }
+  
+  /* @import must be at top of file, otherwise CSS will not work */
+  @import url("//hello.myfonts.net/count/3909a7");
+  
+    
+  @font-face {font-family: 'UniversLTPro-Ex';src: url('webfonts/3909A7_0_0.eot');src: url('webfonts/3909A7_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3909A7_0_0.woff2') format('woff2'),url('webfonts/3909A7_0_0.woff') format('woff'),url('webfonts/3909A7_0_0.ttf') format('truetype');}
+   

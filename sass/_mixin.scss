@@ -1,0 +1,15 @@
+@mixin flexcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @mixin background($bckimg) {
+    background-image:url($bckimg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: cursive;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 0;
+  }

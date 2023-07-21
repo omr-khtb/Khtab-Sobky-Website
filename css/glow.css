@@ -1,0 +1,32 @@
+.glow {
+  font-size: 50px;
+  color: rgba(223, 223, 223, 0.603);
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  font-family: cursive;
+
+}
+.glow3shansend {
+  font-size: 20px;
+  color: rgba(56, 54, 54, 0.637);
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  font-family: cursive;
+  float:right;
+
+}
+
+
+.button:hover
+{
+  box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+              0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+  text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;            
+}
+           
+.nor{
+	color:rgb(0, 0, 0);
+	 text-shadow: 0 0 30px #ffffff;
+}

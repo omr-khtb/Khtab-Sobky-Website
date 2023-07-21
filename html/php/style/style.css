@@ -1,0 +1,160 @@
+ul{
+    list-style-type: circle;
+    color: white;
+  }
+  
+
+
+
+
+#first {
+    border: 10px solid lightblue;
+  }
+
+#secound {
+    border: 10px solid lightblue;
+  }
+#third {
+    border: 10px solid lightblue;
+  }
+h6{
+    color: white;
+}
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+
+
+
+#p1{
+    -webkit-text-stroke: 2px #4caf50 ;
+    -webkit-text-fill-color: #4caf50;
+    color: #4caf50;
+    font-size: 40px;
+
+}
+
+#p2{
+    -webkit-text-stroke: 2px #f44336;
+    -webkit-text-fill-color: #f44336;
+    color: #f44336;
+    font-size: 40px;
+
+}
+
+#p3{
+    -webkit-text-stroke: 2px #2196f3;
+    -webkit-text-fill-color:#2196f3;
+    color: #2196f3;
+    font-size: 40px;
+
+}
+
+#p4{
+    -webkit-text-stroke: 2px white;
+    color: white;
+    font-size: 40px;
+
+}
+#p5{
+  -webkit-text-stroke: 2px red;
+  color: red;
+  font-size: 40px;
+
+}
+
+}
+
+.h11{
+    margin: 50px;
+    margin-left: 100px;
+    font-family:verdana;
+    text-align: center;
+    border: 5px solid white ;
+    color: black;
+    -webkit-text-stroke: 4px white ;
+    font-size: 50px;
+      
+
+}
+
+body 
+{
+
+	margin: 0 auto;
+    background-image: url(../img/login.jpg) ;
+	  background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 20px;
+	
+	
+	}
+
+
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+
+#divat{
+   border-radius: 12px;
+}
+img{
+	
+border-radius: 12px;
+	
+	
+}
+.hey{
+background-color:white;
+border-radius: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+     background-image: url(../img/login.jpg) ;
+  }
+  img{
+
+  width: 100;
+  height: auto;
+
+  }
+}
+
+.anat3bt{
+	
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green; 
+
+}

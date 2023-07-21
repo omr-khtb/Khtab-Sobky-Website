@@ -1,0 +1,121 @@
+.button:hover {
+    letter-spacing: 13px;
+    padding: 44px;
+
+ }
+ .contact3:hover{
+	background:#2980b9;
+}
+
+ @keyframes homeSlide {
+    0% {
+      transform: translateX(-150%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes homeSlide2 {
+    0% {
+      transform: translateX(150%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+ @keyframes mymove {
+      from {opacity:0;}
+      to {opacity: 1;}
+    }
+  
+  @keyframes contactslide {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes contactslide2 {
+    0% {
+      transform: translateX(-120%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes contactslide3 {
+    0% {
+      transform: translateX(-140%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes contactslide4 {
+    0% {
+      transform: translateX(-160%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes contactslide5 {
+    0% {
+      transform: translateX(-180%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+.homeSlide {  
+    animation: 1s ease-out 0s 1 homeSlide;
+    
+    padding: 30px;
+  }
+.homeSlide2 {  
+    animation: 1s ease-out 0s 1 homeSlide2;
+    
+    padding: 30px;
+  }
+  .move1{  
+    animation: 1s ease-out 0s 1 contactslide;
+    
+    padding: 0px;
+  }
+  .move2{  
+    animation: 1s ease-out 0s 1 contactslide2;
+    
+    padding: 0px;
+  }
+  .move3{  
+    animation: 1s ease-out 0s 1 contactslide3;
+    
+    padding: 0px;
+  }
+  .move4{  
+    animation: 1s ease-out 0s 1 contactslide4;
+    
+    padding: 0px;
+  }
+  .move5{  
+    animation: 1s ease-out 0s 1 contactslide;
+    
+    padding: 0px;
+  }
+
+  .mymove{
+
+    animation: 2.5s ease-out 0s 1 mymove;
+    
+    padding: 0px;
+  }
+  
+  /* Added for aesthetics */ /* body {margin: 0;font-family: "Segoe UI", Arial, Helvetica, Sans Serif;} 
+  a {text-decoration: none; display: inline-block; margin-right: 10px; color:#fff;} */
+
+
